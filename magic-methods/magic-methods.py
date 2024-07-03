@@ -1,9 +1,3 @@
-# Problem 10 - magic methods
-# Write some examples using python magic methods here.
-
-"""
-Case: Simulate how to customize magic methods to meet specific needs, using event duration comparison as an example.
-"""
 events = [
     {
         "EventName": "vod-a",

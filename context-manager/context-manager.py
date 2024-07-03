@@ -1,10 +1,3 @@
-# Problem 9 - context manager
-# Write some examples using python context manager here.
-
-"""
-Case: Simulate how to use a custom context manager to manage a database connection.
-"""
-
 input_event = {
     "EventName": "a",
 }
@@ -38,5 +31,3 @@ class DatabaseConnection:
 db = DatabaseConnection()
 db.save_event(input_event)
 print(existed_events)
-
-# https://urbandfish.com/what-is-context-manager/

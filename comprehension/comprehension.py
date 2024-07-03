@@ -1,10 +1,3 @@
-# Problem 6 - comprehension
-# Write some examples using python comprehension here.
-
-"""
-Case: Simulate how to use comprehensions to improve developer efficiency and code readability, using the task of finding the requested service and size for scaling as an example.
-"""
-
 events = [
     {
         "EventName": "live-b",
@@ -47,4 +40,3 @@ max_size_service = {key: max(value) for key, value in grouped_service.items()}
 
 print(max_size_service)
 
-# # https://www.learncodewithmike.com/2020/01/python-comprehension.html

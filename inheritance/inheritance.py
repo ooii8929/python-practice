@@ -1,10 +1,3 @@
-# Problem 3 - Inheritance
-# Write some examples with inheritance code here.
-
-"""
-Case: Simulate how to use inheritance to reuse functionality and make the code easy to scale, using event classes as an example.
-"""
-
 class Event:
   def __init__(self, Name: str = None):
     self.Name = Name

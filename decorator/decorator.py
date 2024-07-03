@@ -1,10 +1,3 @@
-# Problem 7 - decorator
-# Write some examples using python decorator here.
-
-"""
-Case: Simulate how to use decorators to reduce code duplication and enhance flexibility, using a built-in decorator and a custom log_decorator to improve the DB model as example.
-"""
-
 def log_decorator(func):
   def wrapper(*args):
     print(f"Logging: update desired count")
